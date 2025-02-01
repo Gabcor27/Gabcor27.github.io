@@ -1,0 +1,12 @@
+main{
+    background-color: rgb(98, 105, 103);
+}
+.navbar{
+    font-style:normal;
+    font-weight: 500;
+    background-size:auto;
+    background-color: crimson;
+}
+.footer{
+    background-color: black;
+}
