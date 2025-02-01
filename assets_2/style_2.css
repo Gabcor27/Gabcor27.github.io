@@ -1,5 +1,10 @@
+body {
+    padding-top: 20px;
+    margin: auto;
+}
 main{
-    background-color: rgb(98, 105, 103);
+    background-color: rgb(232, 193, 217);
+    
 }
 .navbar{
     font-style:normal;
@@ -9,4 +14,5 @@ main{
 }
 .footer{
     background-color: black;
+    
 }
