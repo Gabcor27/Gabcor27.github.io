@@ -12,50 +12,49 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/Logo GD.png" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
-                    </li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/Logo GD.png" class="img-fluid">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Educación">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#Portafolio">Portafolio</a>
+        
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
 
-                </ul>
-
-            </div>
-        </div>
-    </nav>
 
       <main>
         <section>
-          
-            <div class="imagen-container  text-center">
+    
+            <div id= "sobre-mi" class="imagen-container  text-center">
                 <img src="./assets/img/yo.jpg" alt="Sobre mí">
             </div>
-        
         
             <div class="container mt-5"> 
                 <div class="row justify-content-center">
                   <div class="col-sm-4 col-md-8 p-4">
                     <div class="card shadow-lg"> 
                       <div class="card-body p-4"> 
-                        <h5 class="card-title mb-3">Sobre mí</h5>
+                        <h5 class="card-title mb-3">Sobre mi</h5>
                         <p class="card-text">
                           Licenciada en Educación mención inglés, Especialista en Educación Superior y Magister Scientiarum en Inglés: Mención Inglés como Lengua Extranjera. 
                           Certificada con el TKT de la Universidad de Cambridge y en Diseño instruccional y evaluación de los aprendizajes. 
@@ -67,8 +66,8 @@
                   </div>
                 </div>
               </div>
-              
-            <div class="imagen-container  text-center">
+             
+            <div id="Educación"class="imagen-container  text-center">
               <img src="./assets/img/Educación.jpg" alt="Educación">
           </div>
               <div class="container mt-5"> 
@@ -104,7 +103,8 @@
                   </div>
                 </div>
               </div>
-              <div class="imagen-container  text-center">
+             
+              <div id="Experiencia" class="imagen-container  text-center">
                 <img src="./assets/img/Experiencia.jpg" alt="Experiencia">
             </div>
               <div class="container mt-5"> 
@@ -129,7 +129,7 @@
                   </div>
                 </div>
               </div>
-              <div class="imagen-container  text-center">
+              <div id="Portafolio" class="imagen-container  text-center">
               <img src="./assets/img/Portafolio.png" alt="Portafolio">
             </div>
               <div class="container mt-5"> 
@@ -141,6 +141,10 @@
                         <p class="card-text">
                             En este apartado se muestra un resumen de los trabajos realizados durante este curso. 
                         </p>
+                        <div class="d-flex justify-content-center">
+                          <a href="./Portafolio.html"  target="_blank" class="btn btn-primary">Ver más</a>
+                          
+                      </div>
                       </div>
                     </div>
                   </div>
